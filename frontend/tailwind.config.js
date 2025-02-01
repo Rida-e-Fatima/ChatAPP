@@ -5,10 +5,6 @@ export default {
     extend: {},
   },
   plugins: [require("daisyui")],
-  safelist: [
-    { pattern: /data-theme-.*/ },
-    "bg-primary", "bg-secondary", "bg-accent" // 👈 Add these
-  ],
   daisyui: {
     themes:  [
       "light",
